@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
           return response.json();  
         })
         .then(data => {
-          // Llamar a la función showData y pasarle los datos obtenidos
+          
           showData(data);
         })
         .catch(error => {

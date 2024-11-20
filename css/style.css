@@ -3,29 +3,29 @@ main {
   }
 
   
-    #contendor {
-      display: flex;
-      flex-wrap: wrap;            
-      justify-content: center;    
-      gap: 20px;                  
-      padding: 20px;              
-    }
+#contendor {
+  display: flex;
+  flex-wrap: wrap;            
+  justify-content: center;    
+  gap: 20px;                  
+  padding: 20px;              
+}
 
-    .card {
-      flex: 1 1 18rem;            
-      margin-bottom: 20px;        
-      max-width: 18rem;           
-    }
+.card {
+  flex: 1 1 18rem;            
+  margin-bottom: 20px;        
+  max-width: 18rem;           
+}
 
-    @media (max-width: 768px) {
-      .card {
-        flex: 1 1 40%;  
-      }
-    }
+@media (max-width: 768px) {
+  .card {
+      flex: 1 1 40%;  
+  }
+}
     
-    @media (max-width: 480px) {
-      .card {
-        flex: 1 1 100%;  
-      }
-    }
+@media (max-width: 480px) {
+  .card {
+    flex: 1 1 100%;  
+  }
+}
     
